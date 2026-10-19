@@ -1,71 +1,163 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Tahani Beji, Web Developer.">
-    <title>Delicious Bites Menu</title>
-    <header>
-        <h1>Welcome to Delicious Bites</h1>
-        <table>  
-            <thead>
-                <tr>
-                    <th colspan="4">Menu</th>
-                </tr>
-            </thead>
-            <tr>
-                <th>photo</th>
-                <th>Dish</th>
-                <th>Description</th>
-                <th>Price</th>
-            </tr>
-            <tr>
-                <td><img src="spaghetti.JPG" alt="Spaghetti Carbonara" width="100"></td>
-                <td>Spaghetti Carbonara</td>
-                <td>Classic Italian pasta with creamy sauce, pancetta, and Parmesan cheese.</td>
-                <td>$12.99</td>
-            </tr>
-            <tr>
-                <td><img src="margherita.JPG" alt="Margherita Pizza" width="100"></td>
-                <td>Margherita Pizza</td>
-                <td>Traditional pizza with fresh tomatoes, mozzarella cheese, and basil.</td>
-                <td>$10.99</td>
-            </tr>
-            <tr>
-                <td><img src="caesar.JPG" alt="Caesar Salad" width="100"></td>
-                <td>Caesar Salad</td>
-                <td>Crisp romaine lettuce with Caesar dressing, croutons, and Parmesan cheese.</td>
-                <td>$8.99</td>
-            </tr>
-            <tr>
-                <td><img src="grilled.JPG" alt="Grilled Salmon" width="100"></td>
-                <td>Grilled Salmon</td>
-                <td>Fresh salmon fillet grilled to perfection, served with lemon butter sauce.</td>
-                <td>$15.99</td>
-            </tr>
-            <thead>
-                <tr>
-                    <th colspan="4">Desserts</th>
-                </tr>
-            </thead>
-            <tr>
-                <td><img src="tiramisu.JPG" alt="Tiramisu" width="100"></td>
-                <td>Tiramisu</td>
-                <td>Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream.</td>
-                <td>$6.99</td>
-            </tr>
-            <tr>
-                <td><img src="cheesecake.JPG" alt="Cheesecake" width="100"></td>
-                <td>Cheesecake</td>
-                <td>Rich and creamy cheesecake with a graham cracker crust, served with strawberry sauce.</td>
-                <td>$5.99</td>
-            </tr>
-            <tr>
-                <td><img src="chocolate.JPG" alt="Chocolate Lava Cake" width="100"></td>
-                <td>Chocolate Lava Cake</td>
-                <td>Decadent chocolate cake with a gooey molten center, served with vanilla ice cream.</td>
-                <td>$7.99</td>
-            </tr>
-        </table>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Bites Menu</title>
+</head>
 
-    </header>
+<body>
+
+  <header>
+    <h1>Delicious Bites Menu</h1>
+    <p><em>Fresh Tunisian &amp; Mediterranean flavors, made daily</em></p>
+    <hr>
+  </header>
+
+  <main>
+
+    <!-- ===================== APPETIZERS ===================== -->
+    <section id="appetizers">
+      <h2>Appetizers</h2>
+      <table border="1" cellpadding="10" cellspacing="0" width="100%">
+        <caption>Start your meal with something light</caption>
+        <thead>
+          <tr>
+            <th scope="col">Image</th>
+            <th scope="col">Item Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price (TND)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="brike.jpeg" alt="Crispy Tunisian brik with egg" width="120" height="90"></td>
+            <th scope="row">Brik à l'Œuf</th>
+            <td>Crispy pastry filled with egg, tuna, parsley, and capers.</td>
+            <td>6.500 TND</td>
+          </tr>
+          <tr>
+            <td><img src="mechouia.jpeg" alt="Salade Mechouia in a bowl" width="120" height="90"></td>
+            <th scope="row">Salade Mechouia</th>
+            <td>Grilled peppers and tomatoes with garlic, olive oil, and tuna.</td>
+            <td>7.000 TND</td>
+          </tr>
+          <tr>
+            <td><img src="fricassee.jpeg" alt="Golden fried fricassé sandwiches" width="120" height="90"></td>
+            <th scope="row">Fricassé</th>
+            <td>Golden fried bread stuffed with tuna, olives, egg, and harissa.</td>
+            <td>4.500 TND</td>
+          </tr>
+          <tr>
+            <td><img src="lablabi.jpeg" alt="Bowl of lablabi chickpea soup" width="120" height="90"></td>
+            <th scope="row">Lablabi</th>
+            <td>Warm chickpea soup with cumin, garlic, and a drizzle of olive oil.</td>
+            <td>5.000 TND</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <br>
+
+    <!-- ===================== MAIN COURSES ===================== -->
+    <section id="main-courses">
+      <h2>Main Courses</h2>
+      <table border="1" cellpadding="10" cellspacing="0" width="100%">
+        <caption>Hearty dishes prepared with traditional recipes</caption>
+        <thead>
+          <tr>
+            <th scope="col">Image</th>
+            <th scope="col">Item Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price (TND)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="couscous.jpeg" alt="Lamb couscous with vegetables" width="120" height="90"></td>
+            <th scope="row">Couscous with Lamb</th>
+            <td>Steamed semolina with tender lamb, chickpeas, and seasonal vegetables.</td>
+            <td>28.000 TND</td>
+          </tr>
+          <tr>
+            <td><img src="grilled.fish.jpeg" alt="Grilled sea bream with lemon" width="120" height="90"></td>
+            <th scope="row">Grilled Sea Bream</th>
+            <td>Fresh catch grilled with lemon and herbs, served with rice and salad.</td>
+            <td>32.000 TND</td>
+          </tr>
+          <tr>
+            <td><img src="ojja.jpeg" alt="Ojja merguez in a pan" width="120" height="90"></td>
+            <th scope="row">Ojja Merguez</th>
+            <td>Spicy tomato and pepper stew with merguez sausage and poached eggs.</td>
+            <td>18.500 TND</td>
+          </tr>
+          <tr>
+            <td><img src="tajine.jpeg" alt="Baked Tunisian tajine" width="120" height="90"></td>
+            <th scope="row">Tajine Tunisien</th>
+            <td>Baked egg and chicken pie with cheese, parsley, and warm spices.</td>
+            <td>22.000 TND</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <br>
+
+    <!-- ===================== DESSERTS ===================== -->
+    <section id="desserts">
+      <h2>Desserts</h2>
+      <table border="1" cellpadding="10" cellspacing="0" width="100%">
+        <caption>A sweet ending to your meal</caption>
+        <thead>
+          <tr>
+            <th scope="col">Image</th>
+            <th scope="col">Item Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price (TND)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="makroudh.jpeg" alt="Makroud date pastries" width="120" height="90"></td>
+            <th scope="row">Makroud</th>
+            <td>Semolina pastry filled with dates and soaked in honey syrup.</td>
+            <td>5.500 TND</td>
+          </tr>
+          <tr>
+            <td><img src="baklawa.jpeg" alt="Tunisian baklawa with pistachios" width="120" height="90"></td>
+            <th scope="row">Baklawa</th>
+            <td>Layers of flaky pastry with almonds, pistachios, and honey.</td>
+            <td>7.500 TND</td>
+          </tr>
+          <tr>
+            <td><img src="assidat-zgougou.jpeg" alt="Assidat Zgougou pine nut cream" width="120" height="90"></td>
+            <th scope="row">Assidat Zgougou</th>
+            <td>Silky Aleppo pine seed cream topped with almonds and hazelnuts.</td>
+            <td>8.000 TND</td>
+          </tr>
+          <tr>
+            <td><img src="bambalouni.jpeg" alt="Bambalouni sugar-dusted doughnut" width="120" height="90"></td>
+            <th scope="row">Bambalouni</th>
+            <td>Tunisian fried doughnut rolled in sugar or drizzled with honey.</td>
+            <td>3.500 TND</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <footer>
+    <hr>
+    <p><strong>Delicious Bites Restaurant</strong></p>
+    <p>All prices are in Tunisian Dinars (TND) and include taxes.</p>
+    <address>
+      Avenue Habib Bourguiba, Tunis, Tunisia<br>
+      Open daily: 12:00 PM – 11:00 PM
+    </address>
+    <p><small>&copy; 2026 Delicious Bites. All rights reserved.</small></p>
+  </footer>
+
+</body>
+</html>
